@@ -6,23 +6,23 @@ class Indice < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/edsu/indice/releases/download/v0.6.3/indice-v0.6.3-aarch64-apple-darwin.tar.gz"
-      sha256 "ce5cd70e95f9fce44d9a70e697970430a39a489105c2b9572dc02f81a3620eee"
+      url "https://github.com/edsu/indice/releases/download/v0.6.4/indice-v0.6.4-aarch64-apple-darwin.tar.gz"
+      sha256 "c4434b6cbdb41ebe92dce07f0e658ed709ae90779599dc722d52a931e300a489"
     end
     on_intel do
-      url "https://github.com/edsu/indice/releases/download/v0.6.3/indice-v0.6.3-x86_64-apple-darwin.tar.gz"
-      sha256 "a275f6a8a920a849fa1261a1c1de7cdaa99f36b27f530e61ccf8908c9c34f8a3"
+      url "https://github.com/edsu/indice/releases/download/v0.6.4/indice-v0.6.4-x86_64-apple-darwin.tar.gz"
+      sha256 "3b1a4cc05c6facc7388f5d1774b4cc6f943b56b7374641251523448519c1461a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/edsu/indice/releases/download/v0.6.3/indice-v0.6.3-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "46a7e32d34d36396e5cf8c3c03b19109d9199f4d5fb37242bc73f0fbc864d740"
+      url "https://github.com/edsu/indice/releases/download/v0.6.4/indice-v0.6.4-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "b585707fe8476a5c49fd957b74f54adf9c10f67c683a3e7d02b4ec09f34a01b6"
     end
     on_intel do
-      url "https://github.com/edsu/indice/releases/download/v0.6.3/indice-v0.6.3-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "527b481958974dea69ea19b45cb1d886baebebe37eb8a20ec8087a8d75d8e35c"
+      url "https://github.com/edsu/indice/releases/download/v0.6.4/indice-v0.6.4-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "11cb4dad51c7591725b5d964fecb2c7fb10f8259f4ac507d81630c8d20ce8845"
     end
   end
 
